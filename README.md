@@ -21,7 +21,7 @@ Emily Mahoney, Username: Emahoney2
 
 *Added Bank simulation skeleton files.
 
-*Re-formatted the groups README file for better organizational use.
+*Re-formatted the groups README.md file for better organizational use.
 
 __________________________________________________________________________________
 
