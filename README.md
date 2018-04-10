@@ -26,6 +26,8 @@ Emily Mahoney, Username: Emahoney2
 
 *Re-formatted the groups README.md file for better organizational use.
 
+*Created JUnit testing in the Customer.java file.
+
 __________________________________________________________________________________
 
 Jonathan Cruz, Username: CruzJonathan
