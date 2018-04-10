@@ -4,7 +4,9 @@ COP-2805C Java II Project
 Your group's task is to create a thorough set of unit tests. 
 
 Team Lead: Karl Schmidt
+
 Team Organization: Centralized Workflow
+
 Team Name: The Inquisitive Minds
 
 Team Members: Karl Schmidt, Emily Mahoney, Jonathan Cruz
