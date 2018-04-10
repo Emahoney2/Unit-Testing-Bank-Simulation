@@ -1,11 +1,14 @@
 package banking;
 
 import java.time.*;
+import org.junit.*;
 
 /**
  * @author wpollock
  *
  */
+
+
 public class Transaction implements Comparable<Transaction> {
     private static int nextID = 1;
 
@@ -29,12 +32,20 @@ public class Transaction implements Comparable<Transaction> {
         this.timestamp = LocalDateTime.now();
         // Stub
     }
-
+    
     /**
      * @return the id
      */
     public int getId () {
         return 0;  // Stub
+    }
+    
+    @Test
+    public void testId()
+    {
+        id n = new id();
+        n.setId(1);
+    	Assert.assertEquals(1, n.getId());
     }
 
     /**
@@ -50,6 +61,13 @@ public class Transaction implements Comparable<Transaction> {
     public TransactionType getType () {
         return null;  // Stub
     }
+    
+    @Test
+    public void testTransactionType()
+    {
+    	this.type = null;
+    	Assert.ThrowsException<ArgumentNullException>()getType());
+    }
 
     /**
      * @return the amount of this transaction.
@@ -58,12 +76,27 @@ public class Transaction implements Comparable<Transaction> {
     public double getAmount () {
         return 0.00;  // Stub
     }
+    
+    @Test
+    public void testGetAmount()
+    {
+        amount a = new amount();
+        a.setAmount(0.00);
+    	Assert.assertEquals(0.00, a.getAmount());
+    }
 
     /**
      * @return the description
      */
     public String getDescription () {
         return null;  // Stub
+    }
+    
+    @Test
+    public voidtestStringDescription()
+    {
+    	String description = "";
+    	assertEquals("", expected);
     }
 
     @Override
