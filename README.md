@@ -12,6 +12,9 @@ ________________________________________________________________________________
 
 Karl Schmidt, Username: KSS0007
 
+*Created JUnit testing in the Transaction.java file.
+
+*Updated his portion of the README.md.
 
 __________________________________________________________________________________
 
